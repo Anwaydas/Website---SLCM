@@ -1,0 +1,26 @@
+<!-- This view has been generated for practice purposes , its not a part of the original design -->
+
+{% extends 'base.html' %}
+
+{% block content %}
+<div class = 'bio'>
+   <h2>Here are the details of {{student.firstname}}  {{student.lastname}}</h2>
+    <p>
+        <div class = student>
+            The email id of the student is : <br> {{student.email}}
+        </div>
+    </p>
+    <p>
+        <div class = student>
+            The age of the student is : <br> {{student.age}}
+        </div>
+    </p>
+    <p>
+        <div class = student>
+            BIO : <br> {{student.bio}}
+        </div>
+    </p>
+</div>
+
+
+{% endblock %}
